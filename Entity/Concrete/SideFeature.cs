@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entity.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Concrete
 {
-    public class SideFeature
+    public class SideFeature : IEntity
     {
         [Key]
         public int Id { get; set; }
