@@ -1,5 +1,4 @@
-﻿using DataAccess.Abstract;
-using Entity.Abstract;
+﻿using Entity.Abstract;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

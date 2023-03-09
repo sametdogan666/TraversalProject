@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstract
+namespace DataAccess.Repository
 {
     public interface IGenericDal<T> where T : class, IEntity, new()
     {
